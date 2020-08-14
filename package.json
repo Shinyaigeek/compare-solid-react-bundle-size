@@ -1,0 +1,31 @@
+{
+  "name": "compare-solid-react-bundle-size",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shinyaigeek/compare-solid-react-bundle-size.git",
+  "author": "<PhilisPaxil@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-solid": "^0.18.14",
+    "html-webpack-plugin": "^4.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "solid-js": "^0.18.14",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  }
+}
